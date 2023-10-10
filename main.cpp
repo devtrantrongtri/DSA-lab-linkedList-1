@@ -16,5 +16,6 @@ int main()
     list_->DeleteFirst();
     cout<<"\n";
     list_->Travel();
+    list_->RemoveAll();
     return 0;
 }

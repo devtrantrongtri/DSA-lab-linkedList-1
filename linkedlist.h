@@ -19,6 +19,14 @@ class linkedlist
         void InsertTail(element*);
         bool DeleteFirst();
         void Travel();
-    protected:    
+        void RemoveAll();
+
+        bool DeleteTail();
+        void AddBehind(element *target, element *pnew);
+        void deleteNode(element *pnew);
+
+    protected:
 };
 #endif //LINKEDLIST_H
+
+
