@@ -39,3 +39,4 @@ void linkedlist::Travel(){
  this->head=this->head->Getpointer();
  delete p;
  }
+
