@@ -20,7 +20,7 @@ void linkedlist::InsertFirst(element*e) {
 }
 void linkedlist::InsertTail(element *e)
 {
-    if(this->head = nullptr){
+    if(this->head == nullptr){
         this->head = this->tail = e; // khi head tro vao e thi e tro vao null ; do da thiet lap contructor element.
     }else{
         this->tail->Setpointer(e); // defalt value of tail is null; cause tail is a member of element ;so it can using setpointer from element . setpointer to set poiter of "this" being point to it.
